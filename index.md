@@ -27,9 +27,11 @@ Your training needs will depend on your field, background, and previous experien
 
 On this site we have the contents of each course, some use cases for the material presented in each, and some self-assessment materials for you to test your knowledge, skills and understanding.
 
-All scientists should be familiar with current issues in reproducibility and with common experimental and analytical approaches.  These are covered in the *Orientation* and *Basic statistics - Key Concepts and Methods* courses.
+All scientists should be familiar with current issues in reproducibility and with common experimental and analytical approaches.  These are covered in the *Orientation* and *Basic statistics - Key Concepts and Methods* (NBI) and *SCI4RD7Y; Essential Statistics for Researchers* (UEA) courses.
 
-Most researchers will also benefit from the *Multifactor Designs and Linear Models* course, which extend basic ideas to more complex, real-world experimental designs.
+Most researchers will also benefit from the *Multifactor Designs and Linear Models* (NBI) or *SCI5RG2Y; Linear Models in R* (UEA) course, which extend basic ideas to more complex, real-world experimental designs.
+
+If you don't know R and would like to get started, then *Using R and Rstudio for Statistical Analysis*
 
 ...
 
@@ -53,12 +55,9 @@ Statistical ideas can take time and commitment to master. Taking the time to lea
 
 Our courses use *R* or *Jamovi* for statistical analysis because they are flexible, transparent, and support reproducible research (and are free!)
 
-- **R** offers an extensive ecosystem for statistical modelling, data visualization, and reproducible reporting.  
-- **Jamovi**, built on R, provides an intuitive point-and-click interface that makes common analyses accessible without coding.
+- **[R](https://cran.r-project.org/) and [RStudio](https://posit.co/download/rstudio-desktop/)** offer an extensive ecosystem for statistical modelling, data visualization, and reproducible reporting.  
+- **[Jamovi](https://www.jamovi.org/)**, which is built on R, provides an intuitive point-and-click interface that makes common analyses accessible without coding.
 
 We recommend these software packages because they are open-source, supported by active research communities, and are more likely to promote good statistical practices. Analyses can be fully documented, shared, and independently verified.  
 
 There is a wealth of free training material for R, and an expanding set of resources for Jamovi.
-
-- [Download R](https://cran.r-project.org/)  
-- [Download Jamovi](https://www.jamovi.org/)  
