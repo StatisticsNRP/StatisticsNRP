@@ -25,7 +25,7 @@ While statistical thinking is fundamental to biological research, it is also a b
 
 Your training needs will depend on your field, background, and previous experience with statistics.
 
-On this site we have the contents of each course, some use cases for the material presented in each, and some self-assessment materials for you to test your knowledge, skills and understanding.
+On this site we have described each course, links for self-directed learning and some self-assessment tools for you to test your knowledge, skills and understanding.
 
 All scientists should be familiar with current issues in reproducibility and with common experimental and analytical approaches.  These are covered in the *Orientation* and *Basic statistics - Key Concepts and Methods* (NBI) and *SCI4RD7Y; Essential Statistics for Researchers* (UEA) courses.
 
