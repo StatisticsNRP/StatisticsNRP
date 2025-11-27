@@ -1,7 +1,7 @@
 ## Design & Analysis of Experiments. Part 1: Key Concepts & Methods
 
 -   **Presenter:** Statistical Services Centre
--   **Available to:** All NBI-based (QIB, TSL, EI, JIC) staff and students
+-   **Available to:** All UEA students, including NBI-based students
 -   **Priority for students:** Mandatory (MSc) Highly Recommended (PhD)
 -   **Dates:** 2-6 Mar 2026, repeated on 18-22 May 2026
 
