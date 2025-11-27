@@ -9,9 +9,9 @@ The information is particularly relevant for students on the NRP Doctoral Traini
 
 We have also curated a list of externally available courses and other resources for self-directed learning.
 
-[Start here]("modules/learn/learn-statistics")
+[Start here](modules/learn/learn-statistics)
 
-[Detail of NRP DTP statistics courses]("modules/courses/orientation")
+[Detail of NRP DTP statistics courses](modules/courses/orientation)
 
-[External links]("modules/links/links/")
+[Resources](modules/resources/resources)
 
