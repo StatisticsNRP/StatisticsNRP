@@ -1,5 +1,15 @@
 
-# Statistics self-Assessment
+
+
+# Experimental design and analysis skills self-assessment
+
+Statistics is a big topic, individual needs will vary depending on field, 
+and it’s completely normal not to know where your own gaps are, particularly early in your career.
+
+This tool is a way for you to check in with yourself across different areas of statistical design and analysis, 
+notice what you already feel confident about, and spot the areas where you should prioritise further support or training.
+
+You can use your results to decide which courses or other forms of learning will help you most.
 
 Choose the statement in each row that best describes you.
 
@@ -10,18 +20,6 @@ Scoring:
 
 Record your scores as you go.  
 At the bottom of each section, add up your total.
-
----
-
-## Section 1: Attitude to Statistics
-
-## Statistical Skills Self-Assessment Rubric  
-*A conversational, first-person reflection tool for postgraduate researchers.*
-
-Scoring (optional):  
-- Developing = 1  
-- Competent = 2  
-- Proficient = 3  
 
 ---
 
@@ -329,7 +327,7 @@ Scoring (optional):
 - [ ] **3 – Proficient**  
   I routinely explore, summarise, and visualise my data using appropriate methods before analysis.
 
-
+--- 
 
 # Professional Development Advice
 
@@ -340,21 +338,22 @@ to explore targeted development suggestions.
 
 ## Section 1: Attitude to Statistics
 
-### **6–10: Building Foundations**
+### 6–10: Building Foundations
 You’re still getting comfortable with statistical thinking.
 Focus areas:
 - Identify topics where you feel least confident.
-- Bookmark 1–2 beginner-friendly resources (e.g., *Practical Statistics for Data Scientists*).
+- Prioritize attending the introductory statistics courses
+- Look 
 - Set a small, achievable learning goal for the next month.
 
-### **11–14: Growing Confidence**
+### 11–14: Growing Confidence
 You have a solid base and are developing good habits.
 Suggestions:
 - Practice critiquing statistical claims in papers.
 - Join a stats reading group or lunch seminar.
 - Start documenting analyses more consistently.
 
-### **15–18: Strong and Proactive**
+### 15–18: Strong and Proactive
 You’re actively developing your statistical literacy.
 Suggestions:
 - Mentor a peer or share tips with your group.

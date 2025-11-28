@@ -1,5 +1,10 @@
 
-- **Notes for *R and RStudio for Statistics* ** 
+# NOTE, THESE ARE ALL (MAINLY) TERRIBLE, I NEED TO CHECK/FIX THIS WITH SOME GOOD REFERENCES.
+
+# Include book recs, journal articles, blogs, courses etc..
+
+## NBI course notes
+- **Notes for R and RStudio for Statistics
   <https://georgemsavva.github.io/R_for_Statistics/>
 
 # External links
@@ -11,22 +16,18 @@
   <https://www.amstat.org/asa/files/pdfs/P-ValueStatement.pdf>
 - **Seeing Theory (Brown University).** *Interactive visual explanations of statistics.*  
   <https://seeing-theory.brown.edu>
-- **Nature (Stodden et al.).** *How to ask a statistical question.*  
-  <https://doi.org/10.1038/d41586-019-00874-8>
 
 ## Reproducibility & Research Integrity
-- **The Turing Way.** *Handbook for reproducible and ethical data science.*  
-  <https://the-turing-way.netlify.app>
 - **Good Enough Practices in Scientific Computing (Wilson et al.).**  
   <https://doi.org/10.1371/journal.pcbi.1005510>
-- **FiveThirtyEight – Science Isn’t Broken.**  
-  <https://fivethirtyeight.com/features/science-isnt-broken/>
 - **UKRI Guidance on Responsible AI.**  
   <https://www.ukri.org/publications>
 - **CONSORT Statement.**
   <http://www.consort-statement.org>
+- **The Turing Way.** *Handbook for reproducible and ethical data science.*  
+  <https://the-turing-way.netlify.app>
 
-## Variables, Design, Replication, Controls
+## General Experimental Design
 - **UCLA Statistics Tutorials.**  
   <https://stats.oarc.ucla.edu>
 - **Design of Experiments Handbook (NIST).**  
@@ -38,9 +39,11 @@
 - **Blocking in ANOVA (UCLA).**  
   <https://stats.idre.ucla.edu>
 
-## Pseudoreplication & Confounding
+## Pseudoreplication
 - **Hurlbert (1984).** *Pseudoreplication and the design of ecological field experiments.*  
   <https://doi.org/10.2307/1934593>
+  
+## Causal thinking
 - **DAGitty – Directed Acyclic Graphs for Causal Inference.**  
   <https://dagitty.net/learn/>
 
@@ -48,7 +51,7 @@
 - **LibreTexts – Power Analysis Tutorial.**  
   <https://stats.libretexts.org>
 
-## Linear Models, Mixed Models, & Modelling
+## Linear Modelling
 - **R for Data Science – Modelling Chapter.**  
   <https://r4ds.hadley.nz>
 - **Ben Bolker (2008).** *Mixed Models: A Guide to Current Practice.*  
@@ -67,8 +70,6 @@
   <https://doi.org/10.1038/d41586-019-00857-9>
 
 ## Descriptive Statistics & EDA
-- **GraphPad – Summary Statistics Guide.**  
-  <https://www.graphpad.com>
 - **Claus Wilke – Fundamentals of Data Visualisation.**  
   <https://clauswilke.com/dataviz/>
 
