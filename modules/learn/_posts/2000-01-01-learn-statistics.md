@@ -16,7 +16,7 @@ Your training needs will depend on your field, background, and previous experien
 
 On this site we have described each course, links for self-directed learning and some self-assessment tools for you to test your knowledge, skills and understanding.
 
-All scientists should be familiar with current issues in reproducibility and the role of statistical design and analysis in ensuring research integrity.  This is covered in the research integrity course and the short introductory *Statistical Analysis and Experimental Design* workshop.
+All scientists should be familiar with current issues in reproducibility and the role of statistical design and analysis in ensuring research integrity.  This is covered in the research integrity course and the short introductory *[Statistical Analysis and Experimental Design]({{site.baseurl}}/modules/courses/orientation/)* workshop.
 
 Foundational ideas, and common simple experimental and analytical approaches are covered in the *Basic statistics - Key Concepts and Methods* (NBI) and *SCI4RD7Y; Essential Statistics for Researchers* (UEA) courses.
 
@@ -28,7 +28,7 @@ If you don't know R and would like to get started, then *Using R and Rstudio for
 
 The diagram below shows the statistical training available to DTP students based at NBI institutes or UEA.
 
-![Statistics training pathway]({{site.baseurl}}/img/pathway.jpg)
+![Statistics training pathway]({{site.baseurl}}/img/pathway.png)
 
 ---
 
