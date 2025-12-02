@@ -1,4 +1,4 @@
-## Design & Analysis of Experiments. Part 1: Multifactor Designs and Linear Models
+## Design & Analysis of Experiments. Part 2: Multifactor Designs and Linear Models
 
 -   **Presenter:** Statistical Services Centre
 -   **Available to:** All NBI-based (QIB, TSL, EI, JIC) staff and students

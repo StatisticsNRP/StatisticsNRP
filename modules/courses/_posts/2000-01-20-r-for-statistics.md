@@ -1,6 +1,6 @@
 ## Using R and Rstudio for Statistical Analysis
 
--   **Presenter:** Statistical Services Centre
+-   **Presenter:** George Savva (QIB)
 -   **Available to:** All NBI-based (QIB, TSL, EI, JIC) staff and students
 -   **Priority for students:** Highly Recommended
 -   **Dates/Venue:** 14, 15, 16 Jan 2026, repeated on 27, 28, 29 April 2026.  Chris Lamb lecture theatre, JIC.

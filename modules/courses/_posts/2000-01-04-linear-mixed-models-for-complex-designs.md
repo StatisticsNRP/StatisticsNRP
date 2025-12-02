@@ -3,7 +3,7 @@
 -   **Presenter:** Statistical Services Centre
 -   **Available to:** All NBI-based (QIB, TSL, EI, JIC) staff and students
 -   **Priority for students:** Highly Recommended (PhD)
--   **Dates:** 16, 17, 18 June 2026 (Parts 1-3) 10.00-13.00
+-   **Dates:** September 2026 (TBC)
 
 ## Learning objectives
 
