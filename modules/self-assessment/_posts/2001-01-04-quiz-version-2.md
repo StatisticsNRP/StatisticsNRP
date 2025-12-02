@@ -65,7 +65,7 @@ There are several commonly used approaches to measure leaf health:
 Several treated plants die before the end of the experiment and cannot
 be measured.
 
-**6) Which of the following statements is true? **
+**6) Which of the following statements is true?**
 
 -   Excluding the dead plants is appropriate, because they have no health
 data and would distort the analysis if retained.
@@ -98,7 +98,7 @@ two diets. Participants were randomly assigned to Diet A (weight loss
 programme) or Diet B (usual diet), but male participants happen by
 chance to be more likely to be assigned to Diet A.
 
-**1) Which of the following statements are correct? **
+**1) Which of the following statements are correct?**
 
 -   Randomisation prevents systematic (non-random) differences between
 groups.
