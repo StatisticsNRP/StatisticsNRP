@@ -18,17 +18,18 @@ The diagram below shows the statistical training available to DTP students based
 
 All scientists should be familiar with current issues in reproducibility and the role of statistical design and analysis in ensuring research integrity.  This is covered in the research integrity course and the short introductory *[Statistical Analysis and Experimental Design]({{site.baseurl}}/modules/courses/orientation/)* workshop.
 
-*Using R and Rstudio for Statistical Analysis* is for those who are new to R and RStudio or need a refresher.  You should attend this course if you have not used R before and would like to attend the SSC training courses.
+*[Using R and RStudio for Statistical Analysis]({{site.baseurl}}/modules/courses/r-for-statistics/)* is for those who are new to R and RStudio or need a refresher.  You should attend this course if you have not used R before and would like to attend the SSC training courses.
 
-Foundational ideas, and common simple experimental and analytical approaches are covered in the *Basic statistics - Key Concepts and Methods* (NBI) and *SCI4RD7Y; Essential Statistics for Researchers* (UEA) courses.
+Foundational ideas, and common simple experimental and analytical approaches are covered in the *[Key Concepts and Methods]({{site.baseurl}}/modules/courses/concepts-and-methods/)* (NBI) or  *[SCI4RD7Y; Essential Statistics for Researchers]({{site.baseurl}}/modules/courses/essential-statistics-for-researchers/)* (UEA) courses.
 
-Most researchers will also benefit from the *Multifactor Designs and Linear Models* (NBI) or *SCI5RG2Y; Linear Models in R* (UEA) course, which extend basic ideas to more realistic, real-world experimental designs.
+Most researchers will also benefit from the *[Multifactor Designs and Linear Models]({{site.baseurl}}/modules/courses/multifactor-designs-and-linear-models/)* (NBI) or *[SCI5RG2Y; Linear Models in R]({{site.baseurl}}/modules/courses/linear-models-in-r/)* (UEA) course, which extend basic ideas to more realistic, real-world experimental designs.
 
-For those conducting longitudinal studies, or those with complex designs (for example repeated measures, or hierarchical studies including most animal studies), the *Linear Mixed Models for Complex Designs* will be invaluable.
+For those conducting longitudinal studies, or those with complex designs (for example repeated measures, or hierarchical studies including most animal studies), the *[Linear Mixed Models for Complex Designs]({{site.baseurl}}/modules/courses/linear-mixed-models-for-complex-designs/)* will be invaluable.
 
 
 
 ![Statistics training pathway]({{site.baseurl}}/img/pathway.png)
+*NRP DTP Statistics training pathway*
 
 ---
 
