@@ -1,3 +1,9 @@
+
+
+console.log("quiz.js has loaded");
+document.documentElement.setAttribute("data-quiz-js", "loaded");
+
+
 document.addEventListener("DOMContentLoaded", () => {
   // Find all quizzes on the page (supports more than one per page)
   document.querySelectorAll(".quiz").forEach((quizEl) => {
