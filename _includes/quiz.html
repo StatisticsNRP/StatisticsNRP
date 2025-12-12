@@ -1,0 +1,16 @@
+{% assign quiz = site.data.quizzes[include.id] %}
+
+<div class="quiz" data-quiz-id="{{ include.id }}">
+  <h2>{{ quiz.title }}</h2>
+
+  <div class="quiz-scenario">
+    <p>{{ quiz.scenario }}</p>
+  </div>
+
+  <div class="quiz-root"></div>
+
+  <!-- Embed the quiz data into the page so JavaScript can read it -->
+  <script type="application/json" class="quiz-data">
+    {{ quiz | jsonify }}
+  </script>
+</div>
