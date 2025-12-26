@@ -2,6 +2,8 @@
 markdown: kramdown
 permalink: /:categories/:title/
 
+destination: c:/jekyll-builds/course-box
+
 # Change this tracking code with your own tracking code
 ga_tracking_code: UA-139717412-2
 # Please leave this code here for us to see how Course in a Box get used

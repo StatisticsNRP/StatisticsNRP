@@ -1,5 +1,5 @@
 title: "Demo quiz: p-values in a wet-lab scenario"
-scenario: >
+scenario:
   You run an experiment comparing control vs treated cells (n=6 per group). You measure
   protein abundance for one target and obtain p = 0.03 from a two-sample t-test.
 
@@ -13,3 +13,4 @@ statements:
   - text: "Statistical significance implies the effect is biologically important."
     correct: false
     feedback: "Incorrect. Statistical significance does not guarantee practical/biological importance; effect size and context matter."
+

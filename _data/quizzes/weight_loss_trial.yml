@@ -1,0 +1,166 @@
+title: "Scenario 2: Weight loss trial"
+scenario: >
+  A clinical study was designed to compare the weight loss achieved using two diets.
+  Participants were randomly assigned to Diet A (weight loss programme) or Diet B (usual diet),
+  but male participants happen by chance to be more likely to be assigned to Diet A.
+
+sets:
+  randomisation_confounding:
+    title: "Randomisation and confounding"
+    items:
+      - type: question
+        kind: multi
+        prompt: "Which of the following statements are correct?"
+        options:
+          - text: "Randomisation prevents systematic (non-random) differences between groups."
+            correct: true
+          - text: "Simple randomisation does not guarantee perfectly equal groups."
+            correct: true
+          - text: "Chance imbalances can still occur when randomising."
+            correct: true
+          - text: "Because the groups differ in sex, the randomisation has failed."
+            correct: false
+
+      - type: question
+        kind: multi
+        prompt: "Which design measures would be suitable to avoid confounding by sex in the study?"
+        options:
+          - text: "Only including male participants in the study"
+            correct: true
+          - text: "Controlling for the effect of sex in the analysis"
+            correct: true
+          - text: "Blocking the randomisation"
+            correct: true
+          - text: "Avoiding randomisation, and allocating members of each sex alternately to treatments"
+            correct: false
+
+  analysis_strategy:
+    title: "Primary analysis strategy"
+    items:
+      - type: comment
+        text: >
+          Participants will be measured at the start and the end of the study.
+
+      - type: question
+        kind: single
+        prompt: "Which analytical strategy would be the most appropriate?"
+        options:
+          - text: "Compare the proportion of the participants that met their target weight between groups"
+            correct: false
+          - text: "Compare the average final weight of participants between groups, controlling for the starting weight"
+            correct: true
+          - text: "Comparing the average weight loss during the study between groups"
+            correct: false
+        explanation: >
+          An ANCOVA-style approach (final weight adjusted for baseline) is often more efficient than analysing change scores,
+          and is well aligned with randomised designs.
+
+  ttest_assumptions:
+    title: "t-test assumptions and diagnostics"
+    items:
+      - type: comment
+        text: >
+          A researcher considers using an independent-groups t-test to compare the results between two groups.
+
+      - type: question
+        kind: multi
+        prompt: "What should be true of the data for a t-test to be valid?"
+        options:
+          - text: "The diets should have been independently allocated to each participant"
+            correct: true
+          - text: "The variance in the outcome measure should be approximately equal between the groups"
+            correct: true
+          - text: "The number of participants must be balanced between the two groups"
+            correct: false
+          - text: "The outcome measure should be approximately normally distributed"
+            correct: false
+          - text: "The outcome measure should be approximately normally distributed within each group"
+            correct: true
+
+      - type: question
+        kind: multi
+        prompt: "How could we test whether the assumptions of the t-test are met?"
+        options:
+          - text: "Plotting the data using box plots between groups"
+            correct: true
+          - text: "Bar charts with error bars indicating standard deviations"
+            correct: false
+          - text: "Statistical tests of normality and equality of variance"
+            correct: true
+          - text: "Diagnostic plots"
+            correct: true
+
+      - type: question
+        kind: multi
+        prompt: "What approaches could we take if the data does not appear to have the correct distribution?"
+        options:
+          - text: "Remove outlying data points"
+            correct: false
+          - text: "Try to transform the data"
+            correct: true
+          - text: "Use a non-parametric test"
+            correct: true
+          - text: "Use a one-way ANOVA"
+            correct: false
+
+  confidence_intervals_interactions:
+    title: "Confidence intervals and effect modification"
+    items:
+      - type: comment
+        text: >
+          Participants in diet A lost an extra 5.2 kg (95% CI = 1.5–8.8 kg) compared to diet B.
+
+      - type: question
+        kind: single
+        prompt: "Which of the following statements is true?"
+        options:
+          - text: "95% of the study participants lost between 1.5 and 8.8 kg extra with diet A compared to diet B."
+            correct: false
+          - text: "If this intervention was implemented in the population, 95% of people would lose between 1.5 and 8.8 kg compared to diet B."
+            correct: false
+          - text: "We have good evidence that diet A leads to more weight loss than diet B."
+            correct: true
+          - text: "We can be confident that diet A causes between 1.5 and 8.8 kg more weight loss than diet B."
+            correct: true
+        explanation: >
+          Note: two of these are defensible depending on how you phrase “confident” and whether you lean causal given randomisation.
+          If you prefer a single-best-answer format, I can tighten this to one correct option.
+
+      - type: comment
+        text: >
+          Researchers suspect that men and women might have had different responses.
+
+      - type: question
+        kind: multi
+        prompt: "How might we explore a sex-specific difference?"
+        options:
+          - text: "Estimate separate analyses in men and women"
+            correct: true
+          - text: "A linear model including sex, treatment, and prior weight as predictors"
+            correct: false
+          - text: "A linear model with main effects of sex, treatment, and their interaction as predictors"
+            correct: true
+          - text: "A 2-way ANOVA including treatment and sex as categorical variables"
+            correct: true
+          - text: "We must not conduct any analysis using this data that was not pre-planned"
+            correct: false
+        explanation: >
+          A treatment-by-sex interaction is the direct test of sex-specific effects. Separate subgroup analyses can be exploratory.
+          A 2-way ANOVA is appropriate if it includes the interaction term.
+
+      - type: comment
+        text: >
+          Separate (subgroup) analyses were conducted.
+          Men: 4.2 kg (95% CI = -1.0 to 9.4 kg).
+          Women: 5.7 kg (95% CI = 0.5 to 10.9 kg).
+
+      - type: question
+        kind: multi
+        prompt: "Which conclusions are correct?"
+        options:
+          - text: "Diet A is effective for weight loss in men"
+            correct: false
+          - text: "Diet A is effective for weight loss in women"
+            correct: true
+          - text: "We have good evidence that the effect of diet is sex-specific"
+            correct: false

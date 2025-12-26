@@ -44,8 +44,9 @@ function calculateSection(sectionId, adviceId) {
     const section = document.getElementById(sectionId);
     const inputs = section.querySelectorAll("input[type=radio]:checked");
     let score = 0;
-
+    let total = 0;
     inputs.forEach(i => score += parseInt(i.value));
+    total = inputs.length;
 
     let message = "";
 
@@ -57,20 +58,20 @@ function calculateSection(sectionId, adviceId) {
     if(adviceId=="advice1"){
       if (score <= inputs.length * 1.5) {
           message = `
-          <strong>Your Score: ${score}</strong><br><br>
+          <strong>Your Score: ${score}/${total}</strong><br><br>
           You’re still gaining confidence in this area.
           Prioritise attendance at the orientation and introductory statistics courses.  Investigate the meta-science literature.
           `;
       } else if (score <= inputs.length * 2.3) {
           message = `
-          <strong>Your Score: ${score}</strong><br><br>
+          <strong>Your Score: ${score}/${total}</strong><br><br>
           You have a good engagement with the good practice of statistics
           Keep practising these skills and look for opportunities to
           apply them in real research contexts. 
           `;
       } else {
           message = `
-          <strong>Your Score: ${score}</strong><br><br>
+          <strong>Your Score: ${score}/${total}</strong><br><br>
           You show strong skills in this area.  
           Consider stretching yourself with advanced topics or 
           mentoring others in your team.
@@ -80,21 +81,21 @@ function calculateSection(sectionId, adviceId) {
     if(adviceId=="advice2"){
       if (score <= inputs.length * 1.5) {
           message = `
-          <strong>Your Score: ${score}</strong><br><br>
+          <strong>Your Score: ${score}/${total}</strong><br><br>
           You’re still gaining confidence in this area.  
           Try setting small learning goals, finding examples to work through,
           and seeking support early in your projects.
           `;
       } else if (score <= inputs.length * 2.3) {
           message = `
-          <strong>Your Score: ${score}</strong><br><br>
+          <strong>Your Score: ${score}/${total}</strong><br><br>
           You’re growing steadily.  
           Keep practising these skills and look for opportunities to
           apply them in real research contexts. 
           `;
       } else {
           message = `
-          <strong>Your Score: ${score}</strong><br><br>
+          <strong>Your Score: ${score}/${total}</strong><br><br>
           You show strong skills in this area.  
           Consider stretching yourself with advanced topics or 
           mentoring others in your team.
@@ -103,21 +104,21 @@ function calculateSection(sectionId, adviceId) {
     }if(adviceId=="advice3"){
       if (score <= inputs.length * 1.5) {
           message = `
-          <strong>Your Score: ${score}</strong><br><br>
+          <strong>Your Score: ${score}/${total}</strong><br><br>
           You’re still gaining confidence in this area.  
           Try setting small learning goals, finding examples to work through,
           and seeking support early in your projects.
           `;
       } else if (score <= inputs.length * 2.3) {
           message = `
-          <strong>Your Score: ${score}</strong><br><br>
+          <strong>Your Score: ${score}/${total}</strong><br><br>
           You’re growing steadily.  
           Keep practising these skills and look for opportunities to
           apply them in real research contexts. 
           `;
       } else {
           message = `
-          <strong>Your Score: ${score}</strong><br><br>
+          <strong>Your Score: ${score}/${total}</strong><br><br>
           You show strong skills in this area.  
           Consider stretching yourself with advanced topics or 
           mentoring others in your team.

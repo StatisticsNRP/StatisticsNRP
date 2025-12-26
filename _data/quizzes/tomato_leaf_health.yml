@@ -1,0 +1,172 @@
+title: "Scenario 1: Tomato plants and leaf health"
+scenario: >
+  Answer the following questions about study design. For single-answer questions, choose one option.
+  For multi-answer questions, select all options you believe are correct.
+
+sets:
+  design_randomisation:
+    title: "Design and randomisation"
+    items:
+      - type: comment
+        text: >
+          A researcher is studying whether a bio-stimulant product can promote leaf health in tomato plants.
+          A sample size calculation suggests 30 plants will be necessary to detect a meaningful effect.
+          They grow 30 plants, allocating some to receive fertiliser with the others left as controls.
+          From each plant, they plan to measure the health of five leaves.
+
+      - type: question
+        kind: multi
+        prompt: "Which of the following statements is true?"
+        options:
+          - text: "The treatment groups should be balanced to avoid bias in the results"
+            correct: false
+          - text: "Having more treated than untreated plants would allow a more precise estimate of the treatment effect"
+            correct: false
+          - text: "The treatment groups should be balanced to give the most precise measure of treatment effect"
+            correct: true
+          - text: "The number of plants in each group should be decided at random"
+            correct: false
+        feedback_correct: "Correct."
+        feedback_incorrect: "Incorrect."
+        explanation: >
+          With simple two-group comparisons, balanced allocation typically maximises precision for a fixed total sample size.
+          Randomisation addresses systematic bias; balancing is primarily a precision consideration.
+
+      - type: question
+        kind: multi
+        prompt: "During which aspect of the study should randomisation be used?"
+        options:
+          - text: "When allocating plants into the treatment groups"
+            correct: true
+          - text: "When arranging the plants in the greenhouse"
+            correct: true
+          - text: "When deciding the order in which to measure the leaves"
+            correct: true
+          - text: "When deciding the order in which to measure the plants"
+            correct: true
+        feedback_correct: "Correct."
+        feedback_incorrect: "Incorrect."
+        explanation: >
+          Randomisation is essential for allocation to treatment. Randomising positions and measurement order helps mitigate
+          systematic environmental and measurement-order effects.
+
+  measurement_units:
+    title: "Measurement scales and experimental units"
+    items:
+      - type: comment
+        text: >
+          There are several commonly used approaches to measure leaf health:
+          1) Visually inspecting leaves and classifying each as healthy or unhealthy
+          2) Grading health on a five-point scale
+          3) Using automated image analysis to estimate the proportion of the leaf that is healthy
+
+      - type: question
+        kind: single
+        prompt: "Visually inspecting leaves and classifying each as healthy or unhealthy is a:"
+        options:
+          - text: "Binary measure"
+            correct: true
+          - text: "Ordinal measure"
+            correct: false
+          - text: "Continuous measure"
+            correct: false
+
+      - type: question
+        kind: single
+        prompt: "Grading the health of each leaf on a five-point scale is a:"
+        options:
+          - text: "Binary measure"
+            correct: false
+          - text: "Ordinal measure"
+            correct: true
+          - text: "Continuous measure"
+            correct: false
+
+      - type: question
+        kind: single
+        prompt: "Estimating the proportion of the leaf that is healthy is a:"
+        options:
+          - text: "Binary measure"
+            correct: false
+          - text: "Ordinal measure"
+            correct: false
+          - text: "Continuous measure"
+            correct: true
+
+      - type: comment
+        text: >
+          Next, consider what the experimental unit is, and what can go wrong if measurements within a plant are treated as independent.
+
+      - type: question
+        kind: multi
+        prompt: "Which of the following statements are correct?"
+        options:
+          - text: "The experimental unit is each leaf because each leaf provides one measurement."
+            correct: false
+          - text: "The experimental unit is each plant because treatments are randomly allocated to plants, not leaves."
+            correct: true
+          - text: "Treating all leaf measurements as independent observations would lead to pseudo-replication."
+            correct: true
+          - text: "Treating all leaf measurements as independent observations is correct since each is measured independently."
+            correct: false
+
+  analysis_missingness:
+    title: "Analysis choices and missing data"
+    items:
+      - type: comment
+        text: >
+          The researcher plans to test the effect of fertiliser on leaf size (e.g., leaf length).
+
+      - type: question
+        kind: multi
+        prompt: "Which might be an appropriate statistical analysis to test the effect of fertilizer on leaf size?"
+        options:
+          - text: "An unpaired t-test, comparing the leaf lengths between treatment groups"
+            correct: false
+          - text: "A Mann–Whitney test comparing individual leaves between groups"
+            correct: false
+          - text: "A linear mixed model, with fertilizer as a fixed and plant as a random effect"
+            correct: true
+          - text: "An unpaired t-test, based on comparing average leaf length per plant between groups"
+            correct: true
+        explanation: >
+          Leaf-level tests that treat leaves as independent can induce pseudo-replication. Either model the within-plant correlation
+          (e.g., mixed model) or aggregate to the plant level and analyse plant means.
+
+      - type: comment
+        text: >
+          Several treated plants die before the end of the experiment and cannot be measured.
+
+      - type: question
+        kind: single
+        prompt: "Which of the following statements is true?"
+        options:
+          - text: "Excluding the dead plants is appropriate, because they have no health data and would distort the analysis if retained."
+            correct: false
+          - text: "The dead plants should be excluded only if the researcher can demonstrate that the deaths occurred completely at random with respect to treatment."
+            correct: true
+          - text: "Additional plants should be added to make the group sizes equal in analysis."
+            correct: false
+          - text: "The missing data should be replaced with the group medians of the surviving plants."
+            correct: false
+
+  interpretation:
+    title: "Interpretation of results"
+    items:
+      - type: comment
+        text: >
+          After completing the analysis, treated plants are slightly healthier on average than untreated plants,
+          but a test for statistical significance returns a p-value of 0.12 (higher than the threshold).
+
+      - type: question
+        kind: single
+        prompt: "How should they interpret this result?"
+        options:
+          - text: "The treatment does not improve plant health"
+            correct: false
+          - text: "Not enough plants were used so we cannot make any claims about treatment effectiveness"
+            correct: false
+          - text: "It is possible that the treatment works, but there is not enough evidence to demonstrate this"
+            correct: true
+          - text: "The treatment probably does not work well enough to be of use"
+            correct: false

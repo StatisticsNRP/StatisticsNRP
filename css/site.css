@@ -3,3 +3,111 @@
 div .content {
   background-color: #f4f4f4; /* pick your colour */
 }
+
+.quiz-root {
+  
+  padding: 12px;
+  margin: 12px 0;
+  border-left: 4px solid #4a90e2;
+  'margin: 2rem 0;
+  font-family: system-ui, sans-serif;
+  margin: 0 auto;
+  padding: 1rem;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.quiz-question {
+  
+  padding: 12px;
+  margin: 12px 0;
+  'border-left: 4px solid #4a90e2;
+  margin: 2rem 0;
+  font-family: system-ui, sans-serif;
+  margin: 0 auto;
+  padding: 1rem;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.quiz-set {
+  
+  margin-top: 0;
+  
+}
+
+
+.quiz-scenario-dontuse {
+  
+  padding: 12px;
+  margin: 12px 0;
+  'border-left: 4px solid #4a90e2;
+  margin: 2rem 0;
+  font-family: system-ui, sans-serif;
+  margin: 0 auto;
+  padding: 1rem;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.section {
+        border-left: 4px solid #4a90e2;
+        padding-left: 1rem;
+        margin: 2rem 0;
+        font-family: system-ui, sans-serif;
+        margin: 0 auto;
+        padding: 2rem;
+        font-size: 1rem;
+        line-height: 1.2;
+  
+}
+
+.quiz-statement {
+  border: 1px solid #ddd;
+  padding: 6px;
+  margin: 6px 0;
+  'border-left: 4px solid #4a90e2;
+  padding-left: 1rem;
+  margin: 1rem 0;
+  font-family: system-ui, sans-serif;
+  margin: 0 auto;
+  padding: 1rem;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.quiz-statement button {
+  margin-right: 8px;
+}
+
+.quiz-feedback {
+  margin: 0px;
+  background: #f5f9ff;
+  border: 1px solid #d5e4ff;
+  padding: 1rem;
+  'margin-top: 1rem;
+  'display: none;
+}
+
+
+.subcategory {
+        margin-top: 0.5rem;
+        font-weight: 600;
+    }
+.option {
+        margin-left: 1rem;
+    }
+button {
+        margin-top: 1rem;
+        padding: 0.7rem 1.2rem;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    .advice-box {
+        background: #f5f9ff;
+        border: 1px solid #d5e4ff;
+        padding: 1rem;
+        margin-top: 1rem;
+        display: none;
+    }
+ 
