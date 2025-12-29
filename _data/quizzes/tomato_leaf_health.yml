@@ -1,7 +1,8 @@
 title: "Scenario 1: Tomato plants and leaf health"
 scenario: >
-  Answer the following questions about study design. For single-answer questions, choose one option.
-  For multi-answer questions, select all options you believe are correct.
+  A researcher is studying whether a bio-stimulant product can promote leaf health in tomato plants. They plan an experiment in which a group of plants grown with the bio-stimulant will be compared to a control group of plants grown without.
+  
+  From each plant, they plan to measure the health of five leaves.
 
 sets:
   design_randomisation:
@@ -9,20 +10,16 @@ sets:
     items:
       - type: comment
         text: >
-          A researcher is studying whether a bio-stimulant product can promote leaf health in tomato plants.
-          A sample size calculation suggests 30 plants will be necessary to detect a meaningful effect.
-          They grow 30 plants, allocating some to receive fertiliser with the others left as controls.
-          From each plant, they plan to measure the health of five leaves.
-
+          Consider the allocation of treatments to plants
       - type: question
         kind: multi
         prompt: "Which of the following statements is true?"
         options:
-          - text: "The treatment groups should be balanced to avoid bias in the results"
+          - text: "The treatment groups should have equal numbers to avoid bias in the results"
             correct: false
           - text: "Having more treated than untreated plants would allow a more precise estimate of the treatment effect"
             correct: false
-          - text: "The treatment groups should be balanced to give the most precise measure of treatment effect"
+          - text: "The treatment groups should be balanced in number to give the most precise measure of treatment effect"
             correct: true
           - text: "The number of plants in each group should be decided at random"
             correct: false

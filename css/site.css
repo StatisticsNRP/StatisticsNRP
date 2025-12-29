@@ -30,6 +30,16 @@ div .content {
   line-height: 1;
 }
 
+.quiz-option.option-correct {
+  font-weight: bold;
+}
+
+.quiz-option.option-incorrect {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+
 .quiz-set {
   
   margin-top: 0;

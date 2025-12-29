@@ -165,10 +165,10 @@ document.addEventListener("DOMContentLoaded", () => {
       btnCheck.type = "button";
       btnCheck.textContent = "Check answers";
 
-      const btnReset = document.createElement("button");
-      btnReset.type = "button";
-      btnReset.textContent = "Reset";
-      btnReset.style.marginLeft = "8px";
+      //const btnReset = document.createElement("button");
+      //btnReset.type = "button";
+      //btnReset.textContent = "Reset";
+      //btnReset.style.marginLeft = "8px";
 
       const summary = el("div", "quiz-summary");
       summary.style.marginTop = "10px";
@@ -185,15 +185,29 @@ document.addEventListener("DOMContentLoaded", () => {
           qb.inputs.forEach(({ inputEl, optionIndex, feedbackEl }) => {
             const opt = (q.options || [])[optionIndex] || {};
             const userSelected = inputEl.checked;
+            const optionEl = inputEl.closest(".quiz-option");
+            optionEl.classList.remove(
+              "option-correct",
+              "option-incorrect",
+              "option-missed"
+            );
             const optIsCorrect = opt.correct === true;
 
             let mark = "";
+            
             if (userSelected && optIsCorrect) mark = "✓ ";
             else if (userSelected && !optIsCorrect) mark = "✗ ";
             else if (!userSelected && optIsCorrect) mark = "✗ ";
-
+            
+            if (optIsCorrect) {
+              optionEl.classList.add("option-correct");
+            }
+            else if (!optIsCorrect) {
+              optionEl.classList.add("option-incorrect");
+            }
+            
             const fb = opt.feedback ? String(opt.feedback) : "";
-            feedbackEl.textContent = (mark || fb) ? (mark + fb).trim() : "";
+            //feedbackEl.textContent = (mark || fb) ? (mark + fb).trim() : "";
 
             //inputEl.disabled = true;
           });
@@ -220,6 +234,7 @@ document.addEventListener("DOMContentLoaded", () => {
         summary.style.fontWeight = "bold";
       });
 
+      /*
       btnReset.addEventListener("click", () => {
         // Re-render just this set
         const idx = Array.from(root.children).indexOf(setWrap);
@@ -233,9 +248,10 @@ document.addEventListener("DOMContentLoaded", () => {
           root.appendChild(newSetWrap);
         }
       });
+      */
 
       controls.appendChild(btnCheck);
-      controls.appendChild(btnReset);
+      //controls.appendChild(btnReset);
       controls.appendChild(summary);
       setWrap.appendChild(controls);
 
@@ -314,7 +330,7 @@ document.addEventListener("DOMContentLoaded", () => {
             else if (!userSelected && optIsCorrect) mark = "✗ ";
 
             const fb = opt.feedback ? String(opt.feedback) : "";
-            feedbackEl.textContent = (mark || fb) ? (mark + fb).trim() : "";
+           // feedbackEl.textContent = (mark || fb) ? (mark + fb).trim() : "";
 
             //inputEl.disabled = true;
           });
