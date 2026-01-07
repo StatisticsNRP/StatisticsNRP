@@ -42,7 +42,7 @@ sets:
           Participants will be measured at the start and the end of the study.
 
       - type: question
-        kind: single
+        kind: multi
         prompt: "Which analytical strategy would be the most appropriate?"
         options:
           - text: "Compare the proportion of the participants that met their target weight between groups"
@@ -86,8 +86,8 @@ sets:
           - text: "Bar charts with error bars indicating standard deviations"
             correct: false
           - text: "Statistical tests of normality and equality of variance"
-            correct: true
-          - text: "Diagnostic plots"
+            correct: false
+          - text: "Formal diagnostic plots"
             correct: true
 
       - type: question
@@ -111,7 +111,7 @@ sets:
           Participants in diet A lost an extra 5.2 kg (95% CI = 1.5–8.8 kg) compared to diet B.
 
       - type: question
-        kind: single
+        kind: multi
         prompt: "Which of the following statements is true?"
         options:
           - text: "95% of the study participants lost between 1.5 and 8.8 kg extra with diet A compared to diet B."
@@ -159,8 +159,10 @@ sets:
         prompt: "Which conclusions are correct?"
         options:
           - text: "Diet A is effective for weight loss in men"
-            correct: false
+            correct: true
           - text: "Diet A is effective for weight loss in women"
             correct: true
           - text: "We have good evidence that the effect of diet is sex-specific"
             correct: false
+        explanation: >
+          This one is difficult, if the effect is detected in women (and in the population as a whole), and is similarly sized in men then we might argue that it works in men, even though the men-specific estimate is not significant on its own.  There's certainly no evidence for a sex-specific effect here.

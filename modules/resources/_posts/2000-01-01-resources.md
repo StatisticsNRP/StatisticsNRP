@@ -1,7 +1,12 @@
 
-# NOTE, THESE ARE ALL (MAINLY) TERRIBLE, I NEED TO CHECK/FIX THIS WITH SOME GOOD REFERENCES.
+# Resources
 
-# Include book recs, journal articles, blogs, courses etc..
+This page brings together a set of courses and learning resources designed to support good statistical practice in research. 
+
+While short articles, blog posts, and online summaries can be useful starting points, many aspects of statistical reasoning benefit from more sustained treatment. 
+We encourage students to seek out textbooks that are relevant to their research area, as these often provide the context, assumptions, and limitations that are difficult to capture in short formats. This can support deeper understanding over time and provide reliable reference points as your research questions and analytical needs evolve.
+
+
 
 ## NBI course notes
 - **Notes for R and RStudio for Statistics

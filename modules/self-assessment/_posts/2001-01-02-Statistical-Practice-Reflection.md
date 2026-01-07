@@ -56,7 +56,7 @@ Reflect on your answers to identify specific needs, or use your results to decid
     <div class="subcategory">Learning and improving statistical literacy</div>
     <label class="option">
       <input type="radio" name="q1" value="1" checked=true>
-      I usually rely on statistical ideas from my earlier training, and I’m still figuring out which resources are reliable or where to start when something is new.
+      I usually rely on statistical ideas from my earlier training.
     </label><br>
     <label class="option">
       <input type="radio" name="q1" value="2">
@@ -64,7 +64,7 @@ Reflect on your answers to identify specific needs, or use your results to decid
     </label><br>
     <label class="option">
       <input type="radio" name="q1" value="3">
-      I actively look for ways to build my statistical skills — through reading, courses, workshops, or talking with people who have more experience.
+      I actively look for ways to build my statistical skills.
     </label><br><br>
 
 
@@ -72,15 +72,15 @@ Reflect on your answers to identify specific needs, or use your results to decid
     <div class="subcategory">Thinking critically about statistical claims</div>
     <label class="option">
       <input type="radio" name="q2" value="1" checked=true>
-      I often trust software output or published results without really knowing what questions to ask or what assumptions to check.
+      I often trust software output or published results without knowing what questions to ask or what assumptions to check.
     </label><br>
     <label class="option">
       <input type="radio" name="q2" value="2">
-      I sometimes check assumptions, data quality, or interpretation, though I’m still building confidence in doing this regularly.
+      I sometimes check assumptions, data quality, or interpretation.
     </label><br>
     <label class="option">
       <input type="radio" name="q2" value="3">
-      I routinely question data quality and statistical assumptions. I think carefully about what results mean and my confidence in them, both in my own work and when reading the work of others.
+      I routinely question data quality and statistical assumptions. I think carefully about what results mean and my confidence in them.
     </label><br><br>
 
 
@@ -88,7 +88,7 @@ Reflect on your answers to identify specific needs, or use your results to decid
     <div class="subcategory">Transparency and reproducibility</div>
     <label class="option">
       <input type="radio" name="q3" value="1" checked=true>
-      My documentation isn’t always complete, and some parts of my analysis could be clearer or better organised.
+      I do not routinely document my statistical analyses.
     </label><br>
     <label class="option">
       <input type="radio" name="q3" value="2">
@@ -96,14 +96,14 @@ Reflect on your answers to identify specific needs, or use your results to decid
     </label><br>
     <label class="option">
       <input type="radio" name="q3" value="3">
-      I keep my workflow, code, and decisions well documented and organised so others can easily follow what I’ve done.
+      I keep my workflow, code, and decisions well documented and organised and use version control.
     </label><br><br>
 
     <!-- 5. Engagement with generative AI -->
     <div class="subcategory">Engagement with generative AI</div>
     <label class="option">
       <input type="radio" name="q5" value="1" checked=true>
-      I sometimes rely on AI suggestions without fully checking whether they’re accurate or appropriate.
+      I sometimes rely on AI suggestions without checking whether they’re accurate or appropriate.
     </label><br>
     <label class="option">
       <input type="radio" name="q5" value="2">
@@ -119,7 +119,7 @@ Reflect on your answers to identify specific needs, or use your results to decid
     <div class="subcategory">Upholding statistical rigour in team settings</div>
     <label class="option">
       <input type="radio" name="q6" value="1" checked=true>
-      In group discussions, I sometimes stay quiet about statistical concerns because I’m unsure or not yet confident in raising them.
+      In group discussions, I usually stay quiet about statistical concerns.
     </label><br>
     <label class="option">
       <input type="radio" name="q6" value="2">
@@ -127,7 +127,7 @@ Reflect on your answers to identify specific needs, or use your results to decid
     </label><br>
     <label class="option">
       <input type="radio" name="q6" value="3">
-      I actively advocate for good design, appropriate sample sizes, and rigorous analysis within the team.
+      I actively advocate for good design, appropriate sample sizes, and rigorous analysis.
     </label><br><br>
     <!-- Add ALL other section 1 items using the same structure -->
 
@@ -136,15 +136,15 @@ Reflect on your answers to identify specific needs, or use your results to decid
     <div class="subcategory">Avoiding questionable research practices</div>
     <label class="option">
       <input type="radio" name="q4" value="1" checked=true>
-      When I’m under pressure to get a certain result or move quickly, I can find myself tempted to try multiple analyses or selective reporting.
+      When I’m under pressure to get a certain result or move quickly, I can be tempted to try multiple analyses or selective reporting.
     </label><br>
     <label class="option">
       <input type="radio" name="q4" value="2">
-      I am aware of and generally careful to avoid questionable research practices, even when external expectations make it challenging, though I sometimes need to remind myself to stay consistent.
+      I am aware of and generally careful to avoid questionable research practices, though I sometimes need to remind myself to stay consistent.
     </label><br>
     <label class="option">
       <input type="radio" name="q4" value="3">
-      I maintain good research practice even when there is pressure to produce specific outcomes, and I’m confident in documenting and justifying my analytical choices in a transparent, principled way.
+      I maintain good research practice even when there is pressure to produce specific outcomes.
     </label><br><br>
 
     <button onclick="calculateSection('section1', 'advice1')">Calculate Section 1 Score</button>
@@ -156,7 +156,7 @@ Reflect on your answers to identify specific needs, or use your results to decid
     
 </div>
 
-<h2>Section 2 – Experimental design</h2>
+<h2>Section 2 – Experimental design (nine questions)</h2>
 
 <div class="section" id="section2">
 
@@ -164,7 +164,7 @@ Reflect on your answers to identify specific needs, or use your results to decid
     <div class="subcategory">Clarity of research question</div>
     <label class="option">
       <input type="radio" name="q7" value="1" checked=true>
-      My research question can sometimes be broad or loosely defined, and it may not link clearly to measurable outcomes.
+      My research question can sometimes be loosely defined, and it may not link clearly to measurable outcomes.
     </label><br>
     <label class="option">
       <input type="radio" name="q7" value="2">
@@ -180,15 +180,15 @@ Reflect on your answers to identify specific needs, or use your results to decid
     <div class="subcategory">Understanding design options</div>
     <label class="option">
       <input type="radio" name="q8" value="1" checked=true>
-      I tend to choose study designs I’m already familiar with, even if I’m not sure they’re the best fit.
+      I tend to choose study designs I’m already familiar with.
     </label><br>
     <label class="option">
       <input type="radio" name="q8" value="2">
-      I understand common design structures and can select appropriate designs for many research situations.
+      I understand common design structures and can select appropriate designs.
     </label><br>
     <label class="option">
       <input type="radio" name="q8" value="3">
-      I choose study designs strategically to match my hypotheses and data structure, and I can explain why my chosen design is the right one.
+      I research and choose study designs strategically to match my hypotheses and data structure.
     </label><br><br>
 
 
@@ -196,11 +196,11 @@ Reflect on your answers to identify specific needs, or use your results to decid
     <div class="subcategory">Power and sample size</div>
     <label class="option">
       <input type="radio" name="q9" value="1" checked=true>
-      I’m still learning how to calculate sample sizes, and I sometimes rely on defaults or general rules of thumb.
+      I usually rely on defaults or general rules of thumb.
     </label><br>
     <label class="option">
       <input type="radio" name="q9" value="2">
-      I can use basic power calculations with guidance and understand their implications for my study.
+      I can use basic power calculations with guidance.
     </label><br>
     <label class="option">
       <input type="radio" name="q9" value="3">
@@ -240,38 +240,6 @@ Reflect on your answers to identify specific needs, or use your results to decid
     </label><br><br>
 
 
-    <!-- 12. Designing with analysis in mind -->
-    <div class="subcategory">Designing with analysis in mind</div>
-    <label class="option">
-      <input type="radio" name="q12" value="1" checked=true>
-      I don’t always consider the assumptions or structure of the planned analysis when designing my study.
-    </label><br>
-    <label class="option">
-      <input type="radio" name="q12" value="2">
-      I take analytical requirements into account when designing most studies.
-    </label><br>
-    <label class="option">
-      <input type="radio" name="q12" value="3">
-      I design studies to align closely with the planned analyses and think ahead about assumptions, data structure, and potential problems.
-    </label><br><br>
-
-
-    <!-- 13. Documenting design decisions -->
-    <div class="subcategory">Documenting design decisions</div>
-    <label class="option">
-      <input type="radio" name="q13" value="1" checked=true>
-      My design choices aren’t always recorded clearly, and I may forget why I made certain decisions.
-    </label><br>
-    <label class="option">
-      <input type="radio" name="q13" value="2">
-      I record key design decisions and can explain them when asked.
-    </label><br>
-    <label class="option">
-      <input type="radio" name="q13" value="3">
-      I document my design decisions thoroughly and in a clear, reproducible way.
-    </label><br><br>
-
-
     <!-- 14. Feasibility and ethical planning -->
     <div class="subcategory">Feasibility and ethical planning</div>
     <label class="option">
@@ -285,21 +253,6 @@ Reflect on your answers to identify specific needs, or use your results to decid
     <label class="option">
       <input type="radio" name="q14" value="3">
       I design studies that are practical, ethical, and robust, and I build in contingency plans when needed.
-    </label><br><br>
-
-    <!-- 26. Replication and Randomization -->
-    <div class="subcategory">Methods to avoid bias</div>
-    <label class="option">
-      <input type="radio" name="q26" value="1" checked=true>
-      I don’t always think about sources of bias, and I may skip this step when designing studies.
-    </label><br>
-    <label class="option">
-      <input type="radio" name="q26" value="2">
-      I think about bias and try to use techniques such blinding and randomisation in my studies, though sometimes I need guidance on how best to implement them in my setting.
-    </label><br>
-    <label class="option">
-      <input type="radio" name="q26" value="3">
-      I consistently use frameworks to identify potential sources of bias in all my experimental processes, and plan and implement appropriate mitigation strategies.
     </label><br><br>
 
 <!-- 27. Controls and Baselines -->
@@ -330,25 +283,23 @@ Reflect on your answers to identify specific needs, or use your results to decid
 </label><br>
 <label class="option">
   <input type="radio" name="q28" value="3">
-  I plan blocked or stratified randomization proactively (or equivalent appropriate design) to account for variation and increase the precision of my estimates.
+  I plan blocked or stratified randomization proactively to account for variation and increase the precision of my estimates.
 </label><br><br>
 
 <!-- 29. Identifies pseudoreplication -->
 <div class="subcategory">Identifies pseudoreplication</div>
 <label class="option">
   <input type="radio" name="q29" value="1" checked=true>
-  I understand the distinction between technical and biological replication, I sometimes confuse true replication with pseudoreplication and am unclear on how to identify the unit of experiment in my studies.
+  I don't always understand the distinction between technical and biological replication.
 </label><br>
 <label class="option">
   <input type="radio" name="q29" value="2">
-  I can recognise hierarchical data structures and when pseudoreplication might be an issue, though I sometimes need help identifying the unit of experiment or choosing the right analytical strategy.
+  I can recognise hierarchical data structures and when pseudoreplication might be an issue.
 </label><br>
 <label class="option">
   <input type="radio" name="q29" value="3">
   I clearly identify pseudoreplication and design or analyse studies in ways that avoid inflated sample sizes or false precision.
 </label><br><br>
-
-
 
 
     <!-- Calculation Button + Advice Box -->
@@ -359,7 +310,7 @@ Reflect on your answers to identify specific needs, or use your results to decid
 </div>
 
 
-<h2>Section 3 – Analysis</h2>
+<h2>Section 3 – Analysis (six questions)</h2>
 
 <div class="section" id="section3">
 
@@ -367,7 +318,7 @@ Reflect on your answers to identify specific needs, or use your results to decid
     <div class="subcategory">Interpreting statistical results</div>
     <label class="option">
       <input type="radio" name="q15" value="1" checked=true>
-      I’m still learning how to interpret p-values, confidence intervals, and model outputs accurately.
+      I’m still learning how to interpret p-values, confidence intervals, and other analysis outputs.
     </label><br>
     <label class="option">
       <input type="radio" name="q15" value="2">
@@ -395,23 +346,7 @@ Reflect on your answers to identify specific needs, or use your results to decid
     </label><br><br>
 
 
-    <!-- 17. Checking assumptions -->
-    <div class="subcategory">Checking assumptions</div>
-    <label class="option">
-      <input type="radio" name="q17" value="1" checked=true>
-      I don’t always remember to check assumptions, or I’m unsure how to check them properly.
-    </label><br>
-    <label class="option">
-      <input type="radio" name="q17" value="2">
-      I check most assumptions and know what to do when something doesn’t look right.
-    </label><br>
-    <label class="option">
-      <input type="radio" name="q17" value="3">
-      I routinely check assumptions in depth and apply appropriate methods when assumptions aren’t met.
-    </label><br><br>
-
-
-    <!-- 18. Effect sizes and precision -->
+     <!-- 18. Effect sizes and precision -->
     <div class="subcategory">Effect sizes and precision</div>
     <label class="option">
       <input type="radio" name="q18" value="1" checked=true>
@@ -424,38 +359,6 @@ Reflect on your answers to identify specific needs, or use your results to decid
     <label class="option">
       <input type="radio" name="q18" value="3">
       I consistently report and interpret effect sizes and uncertainty in a way that supports clear, meaningful conclusions.
-    </label><br><br>
-
-
-    <!-- 19. Descriptive statistics and visualisation -->
-    <div class="subcategory">Descriptive statistics and visualisation</div>
-    <label class="option">
-      <input type="radio" name="q19" value="1" checked=true>
-      I sometimes choose summaries or plots without thinking about whether they fit the data.
-    </label><br>
-    <label class="option">
-      <input type="radio" name="q19" value="2">
-      I use appropriate summaries and standard plots for most data types.
-    </label><br>
-    <label class="option">
-      <input type="radio" name="q19" value="3">
-      I choose descriptive statistics and visualisations carefully, based on the data’s distribution, scale, and purpose.
-    </label><br><br>
-
-
-    <!-- 20. Hypothesis formulation -->
-    <div class="subcategory">Hypothesis formulation</div>
-    <label class="option">
-      <input type="radio" name="q20" value="1" checked=true>
-      My hypotheses may not always be clearly stated or may not match the study design well.
-    </label><br>
-    <label class="option">
-      <input type="radio" name="q20" value="2">
-      I can write clear null and alternative hypotheses that fit my research questions.
-    </label><br>
-    <label class="option">
-      <input type="radio" name="q20" value="3">
-      I write precise, well-structured hypotheses that align closely with my design, variables, and expected outcomes.
     </label><br><br>
 
 
@@ -491,37 +394,6 @@ Reflect on your answers to identify specific needs, or use your results to decid
     </label><br><br>
 
 
-    <!-- 23. Using advanced model types -->
-    <div class="subcategory">Using advanced model types</div>
-    <label class="option">
-      <input type="radio" name="q23" value="1" checked=true>
-      I’m still learning when and how to use advanced models like mixed effects or time-series models.
-    </label><br>
-    <label class="option">
-      <input type="radio" name="q23" value="2">
-      I can identify when advanced models are needed and use them with guidance.
-    </label><br>
-    <label class="option">
-      <input type="radio" name="q23" value="3">
-      I apply advanced models correctly and interpret their results with confidence.
-    </label><br><br>
-
-
-    <!-- 24. Reproducible coding and workflow -->
-    <div class="subcategory">Reproducible coding and workflow</div>
-    <label class="option">
-      <input type="radio" name="q24" value="1" checked=true>
-      My code or workflow may be disorganised or not fully reproducible.
-    </label><br>
-    <label class="option">
-      <input type="radio" name="q24" value="2">
-      My analyses are generally reproducible, and my code is reasonably organised.
-    </label><br>
-    <label class="option">
-      <input type="radio" name="q24" value="3">
-      I keep reproducible code, use version control, and maintain clear documentation throughout my analysis.
-    </label><br><br>
-
     <!-- 25. Data checking and preparation -->
     <div class="subcategory">Data checking and preparation</div>
     <label class="option">
@@ -537,20 +409,7 @@ Reflect on your answers to identify specific needs, or use your results to decid
       I routinely explore, summarise, and visualise my data using appropriate methods before analysis.
     </label><br><br>
     
-    <!-- 30. Uses software effectively and reproducibly -->
-    <div class="subcategory">Effective and reproducible use of software</div>
-    <label class="option">
-      <input type="radio" name="q30" value="1" checked=true>
-      I’m still learning to use statistical software efficiently, and my workflows may not always be well organised or reproducible.
-    </label><br>
-    <label class="option">
-      <input type="radio" name="q30" value="2">
-      I use statistical software competently and keep my files and code reasonably organised so that my analyses can usually be reproduced.
-    </label><br>
-    <label class="option">
-      <input type="radio" name="q30" value="3">
-      I consistently use statistical software in a structured, reproducible way, with clear workflows, well-documented code, and version control.
-    </label><br><br>
+  
     
     <!-- Calculation Button + Advice Box -->
     <button onclick="calculateSection('section3', 'advice3')">Calculate Section 3 Score</button>

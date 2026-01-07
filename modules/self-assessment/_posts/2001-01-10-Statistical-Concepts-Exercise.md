@@ -9,6 +9,10 @@ For each scenario, you will be asked to evaluate a set of statements or choose a
 
 This activity is intended as a formative learning exercise. It is designed to help you identify areas that may need further study, and to build confidence in applying statistical reasoning as part of your research practice.
 
+<hr/>
+
 {% include quiz.html id="tomato_leaf_health" %}
+
+<hr/>
 
 {% include quiz.html id="weight_loss_trial" %}

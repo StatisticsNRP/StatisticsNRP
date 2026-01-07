@@ -135,7 +135,7 @@ sets:
           Several treated plants die before the end of the experiment and cannot be measured.
 
       - type: question
-        kind: single
+        kind: multi
         prompt: "Which of the following statements is true?"
         options:
           - text: "Excluding the dead plants is appropriate, because they have no health data and would distort the analysis if retained."
@@ -156,7 +156,7 @@ sets:
           but a test for statistical significance returns a p-value of 0.12 (higher than the threshold).
 
       - type: question
-        kind: single
+        kind: multi
         prompt: "How should they interpret this result?"
         options:
           - text: "The treatment does not improve plant health"
@@ -166,4 +166,6 @@ sets:
           - text: "It is possible that the treatment works, but there is not enough evidence to demonstrate this"
             correct: true
           - text: "The treatment probably does not work well enough to be of use"
-            correct: false
+            correct: true
+        explanation: >
+          Another tricky one!  A p-value of p=0.12 would not normally be considered statistically significant.  If a power calculation was conducted to select a sample size based on a well thought out minimum difference, then a meaningful difference would be detected as significant with a high probability.  So we might conclude that the treatment doesn't work well enough to be of use.  This isn't true if no power calculation was conducted at the outset, in which case p-values, particularly negative p-values, are difficult to interpret and statement three would be more correct.
